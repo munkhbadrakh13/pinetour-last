@@ -20,7 +20,7 @@ body {
 }
 
 #hero {
-  background-image: url(/pinetour/HeroImage.png);
+  background-image: url(./HeroImage.png);
   height: 773px;
 }
 .section {
@@ -57,13 +57,15 @@ header {
   width: 400px;
   height: 22px;
   text-decoration: none;
-  background-color: 255, 255, 255, 0.2;  
+  background-color: 255, 255, 255, 0.2;
   border-radius: 10px;
   backdrop-filter: blur(50px);
   fill-opacity: 900;
   text-shadow: 0 0 10px;
 }
-label{cursor: pointer;}
+label {
+  cursor: pointer;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -115,7 +117,7 @@ html {
   font-family: Hanuman, "san-serif";
 }
 #location {
-  background-image: url(/pinetour/Location\ image.png);
+  background-image: url(./Location\ image.png);
   height: 500px;
   display: flex;
   gap: 40px;
@@ -178,7 +180,7 @@ html {
   background-color: #1f72aa75;
 }
 #roadmap {
-  background-image: url(/pinetour/Roadmap\ image.png);
+  background-image: url(./Roadmap\ image.png);
   height: 1022px;
 }
 .roadmapBottom {
@@ -406,7 +408,7 @@ html {
   display: block;
 }
 #pricefooter {
-  background-image: url(/pinetour/Price&Footer\ image.png);
+  background-image: url(./Price&Footer\ image.png);
   height: 1120px;
 }
 .footerTextHeader {
